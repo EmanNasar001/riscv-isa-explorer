@@ -52,46 +52,6 @@ python3 explorer.py
 
 All three tiers and unit tests run automatically.
 
----
-
-## Sample Output
-
-### Tier 1 — Extension Summary Table
-
-```
-=================================================================
- TIER 1 — Instruction Set Summary by Extension
-=================================================================
-Extension                   Count  Example
------------------------------------------------------------------
-rv32_c                          1  e.g. C_JAL
-rv64_zba                        5  e.g. ADD_UW
-rv_i                           37  e.g. ADD
-rv_v                          627  e.g. VAADD_VV
-rv_zba                          3  e.g. SH1ADD
------------------------------------------------------------------
-Total extensions : 114
-Total instruction entries (with duplicates) : 1343
-```
-
-### Tier 2 — Cross-Reference Summary
-
-```
-[INFO] Scanning 158 AsciiDoc files in ISA manual...
-  Matched (in both)      : 55
-  JSON only              : 59
-  ISA manual only        : 12
-Summary: 55 matched, 59 in JSON only, 12 in manual only
-```
-
-### Tier 3 — Unit Tests
-
-```
-Ran 8 tests in 0.001s  OK
-```
-
----
-
 ## Design Decisions
 
 ### Extension Name Normalization
